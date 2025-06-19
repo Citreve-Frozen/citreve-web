@@ -2680,7 +2680,7 @@ figure {
 }
 
 .footer-bottom-content-wrapper {
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
   display: flex;
 }
@@ -2706,6 +2706,10 @@ figure {
 
 .social-link:hover {
   transform: scale(1.1);
+}
+
+.section-blog {
+  display: none;
 }
 
 .blog-component.is-blog {
@@ -2787,6 +2791,10 @@ figure {
   justify-content: flex-start;
   align-items: center;
   display: flex;
+}
+
+.section-product {
+  display: none;
 }
 
 .padding-section-medium {
@@ -3007,6 +3015,10 @@ figure {
   background-color: var(--neutral--black-900);
   width: 3.75rem;
   height: 1px;
+}
+
+.section-team {
+  display: none;
 }
 
 .team-top-content {
@@ -3388,6 +3400,10 @@ figure {
   justify-content: flex-start;
   align-items: center;
   display: flex;
+}
+
+.section-service {
+  display: none;
 }
 
 .section-service.is-service {
